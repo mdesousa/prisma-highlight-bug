@@ -1,0 +1,23 @@
+{
+  "name": "prisma-highlight-bug",
+  "version": "1.0.0",
+  "description": "reproduce bug in prisma 6.1.0 plus highlight sdk",
+  "author": "Mario DeSousa",
+  "type": "module",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "prisma generate && tsc",
+    "start": "tsx src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "prisma": "^6.1.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@highlight-run/node": "^3.11.0",
+    "@prisma/client": "^6.1.0"
+  }
+}
