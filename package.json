@@ -19,5 +19,8 @@
   "dependencies": {
     "@highlight-run/node": "^3.11.0",
     "@prisma/client": "^6.1.0"
+  },
+  "overrides": {
+    "@prisma/instrumentation": "^6.1.0"
   }
 }
